@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    /* background-color: #1B2725; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    width: 100%;
+    height: 35vh;
+    /* background-image: url(flamingo-marko-blazevic.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: top;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container1 > h1{
+    padding: 20px;
+}
+
+.container1 > p{
+    text-align: center;
+    padding: 20px;
+    /* background-color: rgba(14, 14, 14, 0.5); */
+}
+
+@media only screen and (min-width: 700px){
+    
+body{
+    flex-direction: row;
+}
+
+.container1{
+    height: 100vh;
+}
+
+}
+/* Get container size right.
+Apply img to container. Centered, etc. This is for later, just layouts first,.
+Handle logo text
+Handle credentials. */
