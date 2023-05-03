@@ -22,6 +22,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     object-position: top;
+    margin-bottom: 20px;
 
     display: flex;
     flex-direction: column;
@@ -38,6 +39,69 @@ body{
     /* background-color: rgba(14, 14, 14, 0.5); */
 }
 
+.formOutline{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    margin-bottom: 80px;
+}
+
+.formOutline > .intro{
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+
+.formOutline > .header{
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 100%
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.form-row label{
+    margin-bottom: 8px;
+}
+
+input{
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 3px;
+
+    width: 100%;
+}
+
+.create{
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+    margin: 20px 0px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 @media only screen and (min-width: 700px){
     
 body{
@@ -46,7 +110,10 @@ body{
 
 .container1{
     height: 100vh;
+    max-width: 40%;
 }
+
+
 
 }
 /* Get container size right.
