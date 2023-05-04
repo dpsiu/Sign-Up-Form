@@ -10,42 +10,44 @@
 <body>
     <div class="container1">
         <h1>Wonder of U</h1>
-        <p class="photo-cred">Photo by <a href="">Marko Blazvic</a> on <a href="">Pexels</a></p>
+        <p class="photo-cred">Photo by <a href="https://www.pexels.com/@kerber/">Marko Blazvic</a> on <a href="https://www.pexels.com/">Pexels</a></p>
     </div>
     <div class="container2">
         <div class="formOutline">
-            <p class="intro">Intro Paragraph Here!</p>
+            <p class="intro"><em>“This is a story of our changing planet, and what we can do to help it thrive…” ~ David Attenborough</em></p>
             <h3 class="header">Let's Do This!</h3>
-            <div class="form">
-                <div class="form-row">
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name" required>
+            <form action="''" method="get" class="sign-up-form" novalidate>
+                <div class="form">
+                    <div class="form-row">
+                        <label for="first_name">First Name *</label>
+                        <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20">
+                    </div>
+                    <div class="form-row">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" minlength="3" maxlength="20">
+                    </div>
+                    <div class="form-row">
+                        <label for="form_email">Email *</label>
+                        <input type="email" name="email" id="form_email" >
+                    </div>
+                    <div class="form-row">
+                        <label for="form_phone">Phone Number</label>
+                        <input type="number" name="form_phone" id="form_phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="form_password">Password *</label>
+                        <input type="text" name="form_password" id="form_password" minlength="3" maxlength="20">
+                    </div>
+                    <div class="form-row">
+                        <label for="form_ConfirmPassword">Confirm Password *</label>
+                        <input type="text" name="form_ConfirmPassword" id="form_ConfirmPassword" minlength="3" maxlength="20">
+                    </div>
                 </div>
-                <div class="form-row">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name">
+                <div class="account">
+                    <button class="create"> Create Account </button>
+                    <p>Already have an account? <a href="">Login</a></p>
                 </div>
-                <div class="form-row">
-                    <label for="form_email">Email</label>
-                    <input type="email" name="email" id="form_email" required>
-                </div>
-                <div class="form-row">
-                    <label for="form_phone">Phone Number</label>
-                    <input type="number" name="form_phone" id="form_phone">
-                </div>
-                <div class="form-row">
-                    <label for="form_password">Password</label>
-                    <input type="text" name="form_password" id="form_password" required>
-                </div>
-                <div class="form-row">
-                    <label for="form_ConfirmPassword">Confirm Password</label>
-                    <input type="text" name="form_ConfirmPassword" id="form_ConfirmPassword" required>
-                </div>
-            </div>
-            <div class="account">
-                <button class="create"> Create Account </button>
-                <p>Already have an account? <a href="">Login</a></p>
-            </div>
+            </form>
         </div>
     
 
